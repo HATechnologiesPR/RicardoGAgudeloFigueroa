@@ -1,0 +1,21 @@
+{
+    "name": "Wallesca Méndez Card",
+    "short_name": "WallescaMendez",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#222222",
+    "description": "Business card page for Wallesca Méndez.",
+    "icons": [
+        {
+            "src": "images/Profile.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/Profile.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

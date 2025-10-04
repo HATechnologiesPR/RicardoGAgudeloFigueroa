@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo G. Agudelo Figueroa</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Font Awesome para iconos - Si quieres otros iconos, cambia esta URL -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Manifest para PWA -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Estilos CSS externos -->
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <!-- === ESTRUCTURA HTML === -->
+  <body>
+    <!-- Contenedor principal de la tarjeta -->
+    <div class="card">
+
+      <!-- Sección de imágenes: banner y perfil superpuesta -->
+      <div class="image-container">
+        <!-- Imagen de fondo/banner - CAMBIAR src="images/Banner.png" por tu imagen -->
+        <img src="images/Banner.png" alt="Banner" class="banner">
+        <!-- Imagen de perfil - CAMBIAR src="images/Profile.jpg" por tu foto -->
+        <img src="images/Profile.png" alt="Foto de perfil" class="profile-img">
+      </div>
+
+      <!-- Información personal -->
+      <h1 class="name">Ricardo G. Agudelo Figueroa</h1> <!-- CAMBIAR por tu nombre -->
+      <p class="titulo">Representante Autorizado</p>
+      <!-- CAMBIAR por tu ubicación -->
+      <p>Protege tu salud y la de tu familia con una cubierta perfecta para
+        ti.</p> <!--CAMBIAR por tu descripción -->
+
+      <!-- Grilla de botones de contacto/redes sociales -->
+      <div class="button-grid">
+        <!-- Botón de servicios - ejecuta función JavaScript -->
+        <button class="button" onclick="mostrarServicios()">
+          <i class="fas fa-edit"></i> Servicios
+        </button>
+
+        <!-- Botón de teléfono - CAMBIAR +1234567890 por tu número -->
+        <a class="button" href="tel:+19392811499">
+          <i class="fas fa-phone"></i> Llamar
+        </a>
+
+        <!-- Botón de WhatsApp - CAMBIAR 1234567890 por tu número -->
+        <a class="button" href="https://wa.me/9392811499">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <!-- Botón de Instagram - CAMBIAR tuusuario por tu usuario -->
+        <a class="button" href="https://www.instagram.com/cotizaplanmedico/">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+        <!-- Botón de Facebook - CAMBIAR tuusuario por tu usuario -->
+        <a class="button" href="https://www.cotizaplanmedico.com">
+          <i class="fas fa-globe"></i> Website
+        </a>
+
+        <!-- Botón de Email - CAMBIAR correo@ejemplo.com por tu email -->
+        <a class="button" href="mailto:agudelorg@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </div>
+
+      <!-- Botón para compartir (Share) y agregar contacto -->
+      <div style="display: flex; gap: 10px; justify-content: center;">
+        <button class="button-wide" onclick="compartirEnlace()">
+          <i class="fas fa-share-alt"></i> Share
+        </button>
+        <button class="button-wide" onclick="agregarContacto()">
+          <i class="fas fa-user-plus"></i> Agregar contacto
+        </button>
+      </div>
+
+      <!-- Créditos - CAMBIAR o eliminar si no quieres mostrar -->
+      <p class="powered-by">
+        <span style="cursor:pointer;"
+          onclick="window.location.href='https://hatechnologiespr.github.io/'">Powered
+          by HA Technologies</span>
+      </p>
+    </div>
+
+    <!-- === JAVASCRIPT EXTERNO === -->
+    <script src="index.js"></script>
+  </body>
+</html>
