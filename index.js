@@ -1,7 +1,7 @@
 /* === FUNCIONES JAVASCRIPT === */
 /* Función para compartir el enlace en móviles */
 function compartirEnlace() {
-  const url = "https://cotizaplanmedico.github.io/";
+  const url = "https://hatechnologiespr.github.io/RicardoGAgudeloFigueroa/";
   const title = document.title || "Business Card";
   if (navigator.share) {
     navigator.share({
@@ -59,11 +59,11 @@ function mostrarServicios() {
 function agregarContacto() {
   const vCardData = `BEGIN:VCARD
 VERSION:3.0
-FN:Wallesca Méndez
-N:Méndez;Wallesca;;;
+FN:Ricardo G. Agudelo Figueroa
+N:Agudelo Figueroa;Ricardo G.;;;
 ORG:Cotiza Plan Médico;
-TEL;TYPE=CELL:787-585-4322
-EMAIL:cotizaplanmedico@outlook.com
+TEL;TYPE=CELL:939-281-1499
+EMAIL:agudelorg@gmail.com
 URL:https://www.cotizaplanmedico.com
 ADR:;;Caguas;Puerto Rico;;;
 NOTE:Servicios: Plan médico Individual o Familiar, Planes Médicos Grupales (PYMES), Medicare Advantage
@@ -78,7 +78,7 @@ END:VCARD`;
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'WallescaMendez_Contacto.vcf';
+    a.download = 'RicardoAgudeloFigueroa_Contacto.vcf';
     a.style.display = 'none';
     document.body.appendChild(a);
     a.click();
@@ -94,7 +94,7 @@ END:VCARD`;
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'WallescaMendez_Contacto.vcf';
+    a.download = 'RicardoAgudeloFigueroa_Contacto.vcf';
     a.style.display = 'none';
     document.body.appendChild(a);
     a.click();

@@ -1,11 +1,11 @@
 {
-    "name": "Wallesca Méndez Card",
-    "short_name": "WallescaMendez",
+    "name": "Ricardo Card",
+    "short_name": "RicardoAgudelo",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#222222",
-    "description": "Business card page for Wallesca Méndez.",
+    "description": "Business card page for Ricardo G. Agudelo Figueroa.",
     "icons": [
         {
             "src": "images/Profile.png",
