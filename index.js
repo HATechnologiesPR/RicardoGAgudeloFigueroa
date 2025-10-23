@@ -60,7 +60,7 @@ function agregarContacto() {
   const vCardData = `BEGIN:VCARD
 VERSION:3.0
 FN:Ricardo G. Agudelo Figueroa
-N:Agudelo Figueroa;Ricardo G.;;;
+N:Agudelo Figueroa;MCS - Ricardo G.;;;
 ORG:Cotiza Plan Médico;
 TEL;TYPE=CELL:939-281-1499
 EMAIL:agudelorg@gmail.com
